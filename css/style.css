@@ -25,6 +25,8 @@ h1{
 }
 /* fine header */
 
+/* inizio main */
+
 main{
     margin: auto;
     max-width: 800px;
@@ -36,16 +38,38 @@ main{
 }
 
 .button-1,.button-2{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .button-1{
     margin-left: 50px;
+    background: #47ADF1;
+    color: white;
+    border: solid #47ADF1 1px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.button-2{
+    background:white;
+    color: #C8CED3;
+    border: solid #C8CED3 1px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .task{
     background-color: white;
     padding-left: 50px;
+    position: relative;
+}
+
+.newtask{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px ;
 }
 
 h2:before{
@@ -54,22 +78,80 @@ h2:before{
     
 }
 
-.circular-green{
-    display: inline-block;
+span{
+    background-color: #45ABEA;
+    color: white;
     height: 20px;
     width: 20px;
-    border: solid green 1px;
-    color: green;
-    border-radius: 50%;
-    text-align:center;
 }
 
-.circular-red{
+.circular-green,.circular-red{
     display: inline-block;
     height: 20px;
     width: 20px;
-    border: solid red 1px;
-    color: red;
     border-radius: 50%;
     text-align:center;
+    margin-bottom: 20px;
 }
+
+#green{
+    border: solid green 2px;
+    color: green;
+}
+
+#red{
+    border: solid red 2px;
+    color: red;
+}
+
+.tag{
+    display: inline-block;
+    font-size: small;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    
+    
+}
+
+#blu,#blu2,#blu3 {
+    background-color: #45ABEA;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#viola{
+    background-color: #9C72E4;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#verde{
+    background-color: #65C1AA;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#arancione{
+    background-color: #F29E33;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#rosa{
+    background-color: #D863A1;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+#giallo{
+    background-color:#B0C926;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+ /* fine main */
