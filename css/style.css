@@ -6,11 +6,12 @@ body{
 
 }
 
-/* header */
+/* inizio header */
 
 header{
     background-color: white;
     border-top: solid lightgrey 1px;
+    margin-bottom: 50px;
 }
 
 .logo{
@@ -21,4 +22,54 @@ header{
 h1{
     display: inline-block;
     vertical-align: middle;
+}
+/* fine header */
+
+main{
+    margin: auto;
+    max-width: 800px;
+}
+.tasti{
+    background-color: white;
+    height: 50px;
+    border-bottom: solid 1px lightgray;
+}
+
+.button-1,.button-2{
+    margin-top: 20px;
+}
+
+.button-1{
+    margin-left: 50px;
+}
+
+.task{
+    background-color: white;
+    padding-left: 50px;
+}
+
+h2:before{
+    content:"\25BC";
+    padding-right: 5px;
+    
+}
+
+.circular-green{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: solid green 1px;
+    color: green;
+    border-radius: 50%;
+    text-align:center;
+}
+
+.circular-red{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: solid red 1px;
+    color: red;
+    border-radius: 50%;
+    text-align:center;
 }
